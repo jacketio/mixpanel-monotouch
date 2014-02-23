@@ -1,0 +1,16 @@
+//
+//  Mixpanel-Prefix.pch
+//  Mixpanel
+//
+//  Created by Chad Burggraf on 2/23/14.
+//  Copyright (c) 2014 Mixpanel. All rights reserved.
+//
+
+#ifndef Mixpanel_Mixpanel_Prefix_pch
+#define Mixpanel_Mixpanel_Prefix_pch
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#endif
+
+#endif

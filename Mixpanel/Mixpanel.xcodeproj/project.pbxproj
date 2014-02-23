@@ -43,9 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7375E43C18BA700A001521D4 /* Mixpanel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-Prefix.pch"; sourceTree = "<group>"; };
 		DC6BA4591806E3040039078A /* libMixpanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixpanel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6BA45C1806E3040039078A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DC6BA4601806E3050039078A /* Mixpanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-Prefix.pch"; sourceTree = "<group>"; };
 		DC6BA4691806E3050039078A /* MixpanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixpanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6BA46A1806E3050039078A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DC6BA46D1806E3050039078A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +128,7 @@
 		DC6BA45F1806E3050039078A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC6BA4601806E3050039078A /* Mixpanel-Prefix.pch */,
+				7375E43C18BA700A001521D4 /* Mixpanel-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -434,6 +434,7 @@
 				DC6BA47E1806E3050039078A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC6BA47F1806E3050039078A /* Build configuration list for PBXNativeTarget "MixpanelTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				DC6BA4811806E3050039078A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
