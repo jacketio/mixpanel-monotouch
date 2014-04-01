@@ -119,6 +119,7 @@ namespace MixpanelApi
     
     [BaseType (typeof (NSObject))]
     [Model]
+    [Protocol]
     interface MixpanelDelegate {
 		[Export ("mixpanelWillFlush:"), DelegateName("MixpanelWillFlushDelegate"), DefaultValue("null")]
         bool WillFlush (Mixpanel mixpanel);
